@@ -1,0 +1,3409 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/BoxMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/BoxMerge/BoxMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/BoxMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "BoxMerge",
+          "presets": [
+            {
+              "elements": {
+                "boxmerge307973279": {
+                  "name": "BoxMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "iconmerge935328157"
+                    }
+                  }
+                },
+                "iconmerge935328157": {
+                  "name": "IconMerge",
+                  "props": {
+                    "name": "cr-logo"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "boxmerge307973279"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "none"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "boxShadow",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "grey10"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blue"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDarkest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey20"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey30"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey40"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey50"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey60"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey70"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey80"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey90"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey100"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "red"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "green"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "black"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronze"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeDark"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 100
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "maxWidth",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 100
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": ""
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "space",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "left"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "textAlign",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "right"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "left"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "justify"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/ButtonMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/ButtonMerge/ButtonMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/ButtonMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ButtonMerge",
+          "presets": [
+            {
+              "elements": {
+                "buttonmerge4038267449": {
+                  "name": "ButtonMerge",
+                  "props": {
+                    "children": "Hello Merge!",
+                    "fullWidth": true,
+                    "size": "jumbo",
+                    "variant": "primary"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "buttonmerge4038267449"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Disabled state of button",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "large"
+              },
+              "description": "Button size",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "jumbo"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "primary"
+              },
+              "description": "Button variant.",
+              "isRequired": false,
+              "name": "variant",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "minimal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Property to set for a button to take the full width of it's parent\ncontainer.",
+              "isRequired": false,
+              "name": "fullWidth",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "iconStart",
+              "type": {
+                "name": "element",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "iconEnd",
+              "type": {
+                "name": "element",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onHover",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/CardActionsMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/CardActionsMerge/CardActionsMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CardActionsMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CardActionsMerge",
+          "presets": [
+            {
+              "elements": {
+                "cardactionsmerge2777091529": {
+                  "name": "CardActionsMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "iconmerge3817882061"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge3879733158"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge663277335"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge2019680936"
+                      }
+                    ]
+                  }
+                },
+                "iconmerge2019680936": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "name": "thumb-up-outline"
+                  }
+                },
+                "iconmerge3817882061": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "name": "chat-bubble-outline"
+                  }
+                },
+                "iconmerge3879733158": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "name": "download"
+                  }
+                },
+                "iconmerge663277335": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "name": "thumb-down-outline"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "cardactionsmerge2777091529"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/CardMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/CardMerge/CardMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CardMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CardMerge",
+          "presets": [
+            {
+              "elements": {
+                "cardactionsmerge3238744628": {
+                  "name": "CardActionsMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "iconmerge3817882061"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge3879733158"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge663277335"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge2019680936"
+                      }
+                    ]
+                  }
+                },
+                "cardmerge1153226097": {
+                  "name": "CardMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "cardrowmerge77416391"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardpreviewmerge616618997"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardrowmerge2861640981"
+                      }
+                    ]
+                  }
+                },
+                "cardpreviewmerge616618997": {
+                  "name": "CardPreviewMerge",
+                  "props": {
+                    "image": "https://images.unsplash.com/photo-1540205082-e56e180508e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cc8260f6b8370c4e32ab6bfc1034254&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                  }
+                },
+                "cardrowmerge2861640981": {
+                  "name": "CardRowMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "flexmerge2227886329"
+                    }
+                  }
+                },
+                "cardrowmerge77416391": {
+                  "name": "CardRowMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "paragraphmerge2799091367"
+                    }
+                  }
+                },
+                "flexmerge2227886329": {
+                  "name": "FlexMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "paragraphmerge121448454"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardactionsmerge3238744628"
+                      }
+                    ],
+                    "justifyContent": "space-between"
+                  }
+                },
+                "iconmerge2019680936": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "thumb-up-outline"
+                  }
+                },
+                "iconmerge3817882061": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "chat-bubble-outline"
+                  }
+                },
+                "iconmerge3879733158": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "download"
+                  }
+                },
+                "iconmerge663277335": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "thumb-down-outline"
+                  }
+                },
+                "paragraphmerge121448454": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "20 Action Items",
+                    "variant": "ui"
+                  }
+                },
+                "paragraphmerge2799091367": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "Arbor Card!",
+                    "variant": "ui"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "cardmerge1153226097"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/CardPreviewMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/CardPreviewMerge/CardPreviewMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CardPreviewMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CardPreviewMerge",
+          "presets": [
+            {
+              "elements": {
+                "cardpreviewmerge4231368455": {
+                  "name": "CardPreviewMerge",
+                  "props": {
+                    "image": "https://images.unsplash.com/photo-1540205082-e56e180508e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cc8260f6b8370c4e32ab6bfc1034254&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "cardpreviewmerge4231368455"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "https://images.unsplash.com/photo-1541628951107-a9af5346a3e4?ixlib=rb-0.3.5&s=3d33b46544228d6420f683861bc8d7a6&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "image",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/CardRowMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/CardRowMerge/CardRowMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CardRowMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CardRowMerge",
+          "presets": [
+            {
+              "elements": {
+                "cardactionsmerge1496489805": {
+                  "name": "CardActionsMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "iconmerge3817882061"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge3879733158"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge663277335"
+                      },
+                      {
+                        "uxpinPresetElementId": "iconmerge2019680936"
+                      }
+                    ]
+                  }
+                },
+                "cardrowmerge1536289603": {
+                  "name": "CardRowMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "flexmerge2053410386"
+                    }
+                  }
+                },
+                "flexmerge2053410386": {
+                  "name": "FlexMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "paragraphmerge2840106084"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardactionsmerge1496489805"
+                      }
+                    ],
+                    "justifyContent": "space-between"
+                  }
+                },
+                "iconmerge2019680936": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "thumb-up-outline"
+                  }
+                },
+                "iconmerge3817882061": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "chat-bubble-outline"
+                  }
+                },
+                "iconmerge3879733158": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "download"
+                  }
+                },
+                "iconmerge663277335": {
+                  "name": "IconMerge",
+                  "props": {
+                    "color": "grey50",
+                    "fontSize": "24",
+                    "name": "thumb-down-outline"
+                  }
+                },
+                "paragraphmerge2840106084": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "20 Action Items",
+                    "variant": "ui"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "cardrowmerge1536289603"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/CheckboxMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/CheckboxMerge/CheckboxMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CheckboxMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CheckboxMerge",
+          "presets": [
+            {
+              "elements": {
+                "checkboxmerge2080791760": {
+                  "name": "CheckboxMerge",
+                  "props": {
+                    "checked": true,
+                    "label": "Checkbox"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkboxmerge2080791760"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "The checked attribute of the checkbox.",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "When true, the checkbox is disabled.",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The id attribute of the checkbox.",
+              "isRequired": true,
+              "name": "id",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "State in addition to \"checked\" and \"unchecked\".\nWhen true, the checkbox displays a \"minus\" icon.",
+              "isRequired": false,
+              "name": "indeterminate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "When true, the aria-invalid attribute is true.\nUsed for accessibility.",
+              "isRequired": false,
+              "name": "isInvalid",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Label of the checkbox.",
+              "isRequired": true,
+              "name": "label",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The name attribute of the checkbox.",
+              "isRequired": true,
+              "name": "name",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "Function called when state changes.",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The value attribute of the checkbox.",
+              "isRequired": true,
+              "name": "value",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/FlexMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/FlexMerge/FlexMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/FlexMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "FlexMerge",
+          "presets": [
+            {
+              "elements": {
+                "flexmerge503124933": {
+                  "name": "FlexMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "iconmerge935328157"
+                    }
+                  }
+                },
+                "iconmerge935328157": {
+                  "name": "IconMerge",
+                  "props": {
+                    "name": "cr-logo"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "flexmerge503124933"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "flex-start"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "alignSelf",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "self-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "self-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "first baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "last baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stretch"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "unset"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "auto"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "normal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "center"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "alignItems",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "self-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "self-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "first baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "last baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stretch"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "unset"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "normal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "start"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "justifyContent",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "space-between"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "space-around"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "space-evenly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stretch"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "left"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "right"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "unset"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "row"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "flexDirection",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "row"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "row-reverse"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "column"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "column-reverse"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "unset"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": ""
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "flex",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/GridMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/GridMerge/GridMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/GridMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "GridMerge",
+          "presets": [
+            {
+              "elements": {
+                "cardmerge1480971960": {
+                  "name": "CardMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "cardrowmerge3348424267"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardrowpreview78672725"
+                      }
+                    ]
+                  }
+                },
+                "cardmerge2167822036": {
+                  "name": "CardMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "cardrowmerge129954502"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardrowpreview1969906198"
+                      }
+                    ]
+                  }
+                },
+                "cardmerge24139625587": {
+                  "name": "CardMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "cardrowmerge607709718"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardrowpreview607662943"
+                      }
+                    ]
+                  }
+                },
+                "cardrowmerge129954502": {
+                  "name": "CardRowMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "paragraphMerge2862011116"
+                    }
+                  }
+                },
+                "cardrowmerge3348424267": {
+                  "name": "CardRowMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "paragraphMerge868746789"
+                    }
+                  }
+                },
+                "cardrowmerge607709718": {
+                  "name": "CardRowMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "paragraphMerge2029540404"
+                    }
+                  }
+                },
+                "cardrowpreview1969906198": {
+                  "name": "CardPreviewMerge",
+                  "props": {
+                    "image": "https://images.unsplash.com/photo-1540205082-e56e180508e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cc8260f6b8370c4e32ab6bfc1034254&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                  }
+                },
+                "cardrowpreview607662943": {
+                  "name": "CardPreviewMerge",
+                  "props": {
+                    "image": "https://images.unsplash.com/photo-1541649478521-0afbfb996efd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=87d83f85c9d96e5990574792d72c1e98&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                  }
+                },
+                "cardrowpreview78672725": {
+                  "name": "CardPreviewMerge",
+                  "props": {
+                    "image": "https://images.unsplash.com/photo-1541628951107-a9af5346a3e4?ixlib=rb-0.3.5&s=3d33b46544228d6420f683861bc8d7a6&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                  }
+                },
+                "gridmerge2503257713": {
+                  "name": "GridMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "cardmerge2167822036"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardmerge24139625587"
+                      },
+                      {
+                        "uxpinPresetElementId": "cardmerge1480971960"
+                      }
+                    ],
+                    "gridGap": "large",
+                    "gridTemplateColumns": "repeat(3, 1fr)"
+                  }
+                },
+                "paragraphMerge2029540404": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "Grid Card 2",
+                    "variant": "ui"
+                  }
+                },
+                "paragraphMerge2862011116": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "Grid Card 1",
+                    "variant": "ui"
+                  }
+                },
+                "paragraphMerge868746789": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "Grid Card 3",
+                    "variant": "ui"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "gridmerge2503257713"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "regular"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "gridGap",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "smallest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "smaller"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "regular"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "larger"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "largest"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "repeat(2, 1fr)"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "gridTemplateColumns",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "left"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "justifyItems",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "self-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "self-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-start"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flex-end"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "first baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "last baseline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stretch"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "unset"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "auto"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "normal"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/HeadingMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/HeadingMerge/HeadingMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/HeadingMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "HeadingMerge",
+          "presets": [
+            {
+              "elements": {
+                "headingmerge3029731357": {
+                  "name": "HeadingMerge",
+                  "props": {
+                    "children": "Hey Merge!",
+                    "type": "h1"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "headingmerge3029731357"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "h1"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h3"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h4"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h5"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h6"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "grey10"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blue"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDarkest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey20"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey30"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey40"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey50"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey60"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey70"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey80"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey90"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey100"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "red"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "green"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "black"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronze"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeDark"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/IconMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/IconMerge/IconMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/IconMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "IconMerge",
+          "presets": [
+            {
+              "elements": {
+                "icon3180538387": {
+                  "name": "IconMerge",
+                  "props": {
+                    "fontSize": "24",
+                    "name": "cr-logo"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "icon3180538387"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "cr-logo"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "name",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "checkbox-marked-circle-outline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "cr-logo"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "download"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "chat-bubble-outline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "thumb-up-outline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "thumb-down-outline"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "no"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "rotation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "90"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "180"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "270"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "no"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "blueLighter"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blue"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDarkest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey20"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey30"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey40"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey50"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey60"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey70"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey80"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey90"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey100"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "red"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "green"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "black"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronze"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeDark"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onHover",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/InputMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/InputMerge/InputMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/InputMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "InputMerge",
+          "presets": [
+            {
+              "elements": {
+                "inputmerge1813943740": {
+                  "name": "InputMerge",
+                  "props": {
+                    "id": "Merge",
+                    "label": "Merge",
+                    "large": false,
+                    "placeholder": "Placeholder",
+                    "type": "text"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "inputmerge1813943740"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "merge"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "label",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": ""
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "caption",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "merge"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "text"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "text"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "url"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "email"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "date"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tel"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "search"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "password"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "number"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "placeholder"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "placeholder",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "large",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onFocus",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onBlur",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/LinkMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/LinkMerge/LinkMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/LinkMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "LinkMerge",
+          "presets": [
+            {
+              "elements": {
+                "linkmerge261654422": {
+                  "name": "LinkMerge",
+                  "props": {
+                    "children": "Hello Merge!",
+                    "variant": "default"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "linkmerge261654422"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "default"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "variant",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "muted"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "size1"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "fontSize",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size3"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size4"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size5"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size6"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size7"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "http://uxpin.com"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "href",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "regular"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "m",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "smallest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "smaller"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "regular"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "larger"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "largest"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {},
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/ParagraphMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/ParagraphMerge/ParagraphMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/ParagraphMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ParagraphMerge",
+          "presets": [
+            {
+              "elements": {
+                "paragraphmerge929032115": {
+                  "name": "ParagraphMerge",
+                  "props": {
+                    "children": "Hello Merge!",
+                    "variant": "longForm"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "paragraphmerge929032115"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "longForm"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "variant",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ui"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "longForm"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tiny"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/TextMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/TextMerge/TextMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TextMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TextMerge",
+          "presets": [
+            {
+              "elements": {
+                "textmerge329637822": {
+                  "name": "TextMerge",
+                  "props": {
+                    "children": "Hello Merge!"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "textmerge329637822"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "size4"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "fontSize",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size3"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size4"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size5"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size6"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "size7"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "small"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "lineHeight",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "left"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "textAlign",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "right"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "left"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "justify"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "regular"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "space",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "smallest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "smaller"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "regular"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "larger"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "largest"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "grey100"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blue"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDarkest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey20"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey30"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey40"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey50"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey60"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey70"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey80"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey90"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey100"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white10"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "red"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "green"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "black"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronze"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bronzeDark"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "./src/TooltipMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "./src/TooltipMerge/TooltipMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TooltipMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TooltipMerge",
+          "presets": [
+            {
+              "elements": {
+                "buttonmerge3346587404": {
+                  "name": "ButtonMerge",
+                  "props": {
+                    "children": "Hello Merge!",
+                    "fullWidth": true,
+                    "size": "jumbo",
+                    "variant": "primary"
+                  }
+                },
+                "tooltipmerge2824031748": {
+                  "name": "TooltipMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "buttonmerge3346587404"
+                    },
+                    "text": "Merge!"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "tooltipmerge2824031748"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "text",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": ""
+}

@@ -1,0 +1,12 @@
+{
+    "rootId": "headingmerge3029731357",
+    "elements": {
+      "headingmerge3029731357": {
+        "name": "HeadingMerge",
+        "props": {
+          "children": "Hey Merge!",
+          "type": "h1"
+        }
+      }
+    }
+  }

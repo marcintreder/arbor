@@ -29,7 +29,6 @@ StyledIcon.propTypes = {
 
 const Icon = ({ name, theme, ...props }) => {
   const { iconFontPrefix } = theme;
-
   return (
     <ClassNames>
       {({ cx }) => (

@@ -1,0 +1,12 @@
+{
+    "rootId": "linkmerge261654422",
+    "elements": {
+      "linkmerge261654422": {
+        "name": "LinkMerge",
+        "props": {
+            "children": "Hello Merge!",
+            "variant": "default" 
+        }
+      }
+    }
+  }

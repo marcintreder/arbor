@@ -1,0 +1,85 @@
+{
+  "rootId": "cardrowmerge1536289603",
+  "elements": {
+    "cardrowmerge1536289603": {
+      "name": "CardRowMerge",
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "flexmerge2053410386"
+        }
+      }
+    },
+    "flexmerge2053410386": {
+      "name": "FlexMerge",
+      "props": {
+        "justifyContent": "space-between",
+        "children": [
+          {
+          "uxpinPresetElementId": "paragraphmerge2840106084"
+          },
+          {
+            "uxpinPresetElementId": "cardactionsmerge1496489805"
+          }
+        ]
+      }
+    },
+    "paragraphmerge2840106084": {
+      "name": "ParagraphMerge",
+      "props": {
+        "variant": "ui",
+        "children": "20 Action Items"
+      }
+    },
+    "cardactionsmerge1496489805": {
+      "name": "CardActionsMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "iconmerge3817882061"
+          },
+          {
+            "uxpinPresetElementId": "iconmerge3879733158"
+          },
+          {
+            "uxpinPresetElementId": "iconmerge663277335"
+          },
+          {
+            "uxpinPresetElementId": "iconmerge2019680936"
+          }
+        ]
+      }
+    },
+    "iconmerge3817882061": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "chat-bubble-outline"
+      }
+    },
+    "iconmerge3879733158": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "download"
+      }
+    },
+    "iconmerge663277335": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "thumb-down-outline"
+      }
+    },
+    "iconmerge2019680936": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "thumb-up-outline"
+      }
+    }
+  }
+}

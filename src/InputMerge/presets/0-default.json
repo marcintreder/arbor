@@ -1,0 +1,15 @@
+{
+    "rootId": "inputmerge1813943740",
+    "elements": {
+      "inputmerge1813943740": {
+        "name": "InputMerge",
+        "props": {
+            "type": "text",
+            "label": "Merge",
+            "id": "Merge",
+            "placeholder": "Placeholder",
+            "large": false
+        }
+      }
+    }
+  }

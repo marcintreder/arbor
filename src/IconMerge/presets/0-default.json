@@ -1,0 +1,12 @@
+{
+    "rootId": "icon3180538387",
+    "elements": {
+      "icon3180538387": {
+        "name": "IconMerge",
+        "props": {
+          "name": "cr-logo",
+          "fontSize": "24"
+        }
+      }
+    }
+  }

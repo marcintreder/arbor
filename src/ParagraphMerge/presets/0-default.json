@@ -1,0 +1,12 @@
+{
+    "rootId": "paragraphmerge929032115",
+    "elements": {
+      "paragraphmerge929032115": {
+        "name": "ParagraphMerge",
+        "props": {
+            "children": "Hello Merge!",
+            "variant": "longForm" 
+        }
+      }
+    }
+  }

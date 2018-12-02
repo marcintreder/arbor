@@ -1,0 +1,19 @@
+{
+    "rootId": "flexmerge503124933",
+    "elements": {
+      "flexmerge503124933": {
+        "name": "FlexMerge",
+        "props": {
+          "children": {
+            "uxpinPresetElementId": "iconmerge935328157"
+          }
+        }
+      },
+      "iconmerge935328157": {
+        "name": "IconMerge",
+        "props": {
+          "name": "cr-logo"
+        }
+      }
+    }
+  }

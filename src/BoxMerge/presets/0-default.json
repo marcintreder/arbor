@@ -1,0 +1,19 @@
+{
+    "rootId": "boxmerge307973279",
+    "elements": {
+      "boxmerge307973279": {
+        "name": "BoxMerge",
+        "props": {
+          "children": {
+            "uxpinPresetElementId": "iconmerge935328157"
+          }
+        }
+      },
+      "iconmerge935328157": {
+        "name": "IconMerge",
+        "props": {
+          "name": "cr-logo"
+        }
+      }
+    }
+  }

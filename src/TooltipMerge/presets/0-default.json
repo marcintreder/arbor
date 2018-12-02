@@ -1,0 +1,23 @@
+{
+    "rootId": "tooltipmerge2824031748",
+    "elements": {
+      "tooltipmerge2824031748": {
+        "name": "TooltipMerge",
+        "props": {
+            "children": {
+              "uxpinPresetElementId": "buttonmerge3346587404"
+            },
+            "text": "Merge!" 
+        }
+      },
+      "buttonmerge3346587404": {
+        "name": "ButtonMerge",
+        "props": {
+          "children": "Hello Merge!",
+          "variant": "primary",
+          "size": "jumbo",
+          "fullWidth": true
+        }
+      }
+    }
+  }

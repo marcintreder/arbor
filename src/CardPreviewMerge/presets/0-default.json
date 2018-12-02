@@ -1,0 +1,11 @@
+{
+    "rootId": "cardpreviewmerge4231368455",
+    "elements": {
+      "cardpreviewmerge4231368455": {
+        "name": "CardPreviewMerge",
+        "props": {
+          "image": "https://images.unsplash.com/photo-1540205082-e56e180508e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cc8260f6b8370c4e32ab6bfc1034254&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+        }
+      }
+    }
+  }

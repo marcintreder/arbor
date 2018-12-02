@@ -1,0 +1,14 @@
+{
+    "rootId": "buttonmerge4038267449",
+    "elements": {
+      "buttonmerge4038267449": {
+        "name": "ButtonMerge",
+        "props": {
+            "children": "Hello Merge!",
+            "variant": "primary",
+            "size": "jumbo",
+            "fullWidth": true
+        }
+      }
+    }
+  }

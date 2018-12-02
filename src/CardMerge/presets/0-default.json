@@ -1,0 +1,122 @@
+{
+  "rootId": "cardmerge1153226097",
+  "elements": {
+    "cardmerge1153226097": {
+      "name": "CardMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "cardrowmerge77416391"
+          },
+          {
+            "uxpinPresetElementId": "cardpreviewmerge616618997"
+          },
+          {
+            "uxpinPresetElementId": "cardrowmerge2861640981"
+          }
+        ]
+      }
+    },
+    "cardrowmerge77416391": {
+      "name": "CardRowMerge",
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "paragraphmerge2799091367"
+        }
+      }
+    },
+    "cardpreviewmerge616618997": {
+      "name": "CardPreviewMerge",
+      "props": {
+        "image": "https://images.unsplash.com/photo-1540205082-e56e180508e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cc8260f6b8370c4e32ab6bfc1034254&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+      }
+    },
+    "cardrowmerge2861640981": {
+      "name": "CardRowMerge",
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "flexmerge2227886329"
+        }
+      }
+    },
+    "paragraphmerge2799091367": {
+      "name": "ParagraphMerge",
+      "props": {
+        "variant": "ui",
+        "children": "Arbor Card!"
+      }
+    },
+    "flexmerge2227886329": {
+      "name": "FlexMerge",
+      "props": {
+        "justifyContent": "space-between",
+        "children": [
+          {
+            "uxpinPresetElementId": "paragraphmerge121448454"
+          },
+          {
+            "uxpinPresetElementId": "cardactionsmerge3238744628"
+          }
+        ]
+      }
+    },
+    "paragraphmerge121448454": {
+      "name": "ParagraphMerge",
+      "props": {
+        "variant": "ui",
+        "children": "20 Action Items"
+      }
+    },
+    "cardactionsmerge3238744628": {
+      "name": "CardActionsMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "iconmerge3817882061"
+          },
+          {
+            "uxpinPresetElementId": "iconmerge3879733158"
+          },
+          {
+            "uxpinPresetElementId": "iconmerge663277335"
+          },
+          {
+            "uxpinPresetElementId": "iconmerge2019680936"
+          }
+        ]
+      }
+    },
+    "iconmerge3817882061": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "chat-bubble-outline"
+      }
+    },
+    "iconmerge3879733158": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "download"
+      }
+    },
+    "iconmerge663277335": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "thumb-down-outline"
+      }
+    },
+    "iconmerge2019680936": {
+      "name": "IconMerge",
+      "props": {
+        "color": "grey50",
+        "fontSize": "24",
+        "name": "thumb-up-outline"
+      }
+    }
+  }
+}

@@ -1,34 +1,45 @@
-const path = require("path");
-const webpack = require("webpack");
+const path = require('path');
+// eslint-disable-next-line no-unused-vars
+const webpack = require('webpack');
 
 module.exports = {
-    entry: ["./src/index.js"],
-    output: {
-      path: path.resolve(__dirname, "build"),
-      filename: "bundle.js",
-      publicPath: "/"
-    },
-    resolve: {
-      modules: [__dirname, "node_modules"],
-      extensions: ["*", ".js", ".jsx"]
-    },
-    devtool: "source-map",
-    module: {
-      rules: [
-        {
-          test: /\.svg$/,
-          exclude: /node_modules/,
-          loader: 'svg-react-loader'
-        },
-        {
-          loader: "babel-loader",
-          test: /\.js?$/,
-          exclude: /node_modules/
-        },
-        { 
-          enforce: "pre", 
-          test: /\.js$/, 
-          loader: "source-map-loader" 
-        }
-      ]
-    }
+  entry: ['./src/index.js'],
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: 'bundle.js',
+    publicPath: '/'
+  },
+  resolve: {
+    modules: [__dirname, 'node_modules'],
+    extensions: ['*', '.js', '.jsx']
+  },
+  devtool: 'source-map',
+  module: {
+    rules: [
+      {
+        test: /\.svg$/,
+        exclude: /node_modules/,
+        loader: 'svg-react-loader'
+      },
+      {
+        loader: 'babel-loader',
+        test: /\.js?$/,
+        exclude: /node_modules/
+      },
+      {
+        enforce: 'pre',
+        test: /\.js$/,
+        loader: 'source-map-loader'
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader'
+          }
+        ]
+      }
+    ]
+  }
+};

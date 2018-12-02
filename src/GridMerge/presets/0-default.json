@@ -1,0 +1,125 @@
+{
+    "rootId": "gridmerge2503257713",
+    "elements": {
+      "gridmerge2503257713": {
+        "name": "GridMerge",
+        "props": {
+          "gridTemplateColumns": "repeat(3, 1fr)",
+          "gridGap": "large",
+          "children": [
+            {
+            "uxpinPresetElementId": "cardmerge2167822036"
+            },
+            {
+            "uxpinPresetElementId": "cardmerge24139625587"
+            },
+            {
+            "uxpinPresetElementId": "cardmerge1480971960"
+            }
+          ] 
+        }
+      },
+      "cardmerge2167822036": {
+        "name": "CardMerge",
+        "props": {
+          "children": [
+            {
+            "uxpinPresetElementId": "cardrowmerge129954502"
+            },
+            {
+            "uxpinPresetElementId": "cardrowpreview1969906198"
+            }
+          ]
+        }
+      },
+      "cardmerge24139625587": {
+        "name": "CardMerge",
+        "props": {
+          "children": [
+            {
+            "uxpinPresetElementId": "cardrowmerge607709718"
+            },
+            {
+            "uxpinPresetElementId": "cardrowpreview607662943"
+            }
+          ]
+        }
+      },
+      "cardmerge1480971960": {
+        "name": "CardMerge",
+        "props": {
+          "children": [
+            {
+            "uxpinPresetElementId": "cardrowmerge3348424267"
+            },
+            {
+            "uxpinPresetElementId": "cardrowpreview78672725"
+            }
+          ]
+        }
+      },
+      "cardrowmerge129954502": {
+        "name": "CardRowMerge",
+        "props": {
+          "children": {
+            "uxpinPresetElementId": "paragraphMerge2862011116"
+          }
+        }
+      },
+      "cardrowmerge607709718": {
+        "name": "CardRowMerge",
+        "props": {
+          "children": {
+            "uxpinPresetElementId": "paragraphMerge2029540404"
+          }
+        }
+      },
+      "cardrowmerge3348424267": {
+        "name": "CardRowMerge",
+        "props": {
+          "children": {
+            "uxpinPresetElementId": "paragraphMerge868746789"
+          }
+        }
+      },
+      "cardrowpreview1969906198": {
+        "name": "CardPreviewMerge",
+        "props": {
+          "image": "https://images.unsplash.com/photo-1540205082-e56e180508e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cc8260f6b8370c4e32ab6bfc1034254&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+        }
+      },
+      "cardrowpreview607662943": {
+        "name": "CardPreviewMerge",
+        "props": {
+          "image": "https://images.unsplash.com/photo-1541649478521-0afbfb996efd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=87d83f85c9d96e5990574792d72c1e98&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+        }
+      },
+      "cardrowpreview78672725": {
+        "name": "CardPreviewMerge",
+        "props": {
+          "image": "https://images.unsplash.com/photo-1541628951107-a9af5346a3e4?ixlib=rb-0.3.5&s=3d33b46544228d6420f683861bc8d7a6&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+        }
+      },
+      "paragraphMerge2862011116": {
+        "name": "ParagraphMerge",
+        "props": {
+          "variant": "ui",
+          "children": "Grid Card 1"
+        }
+      },
+      "paragraphMerge2029540404": {
+        "name": "ParagraphMerge",
+        "props": {
+          "variant": "ui",
+          "children": "Grid Card 2"
+        }
+      },
+      "paragraphMerge868746789": {
+        "name": "ParagraphMerge",
+        "props": {
+          "variant": "ui",
+          "children": "Grid Card 3"
+        }
+      }
+    }
+  }
